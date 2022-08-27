@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/form.css" />
+    <title>Employer Info</title>
+  </head>
+  <body>
+    <div class="employer-info">
+      <a class="btn-back" href="/index.html">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-back-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </a>
+      <div class="pops">
+        <p class="pop-active">თანამშრომლის ინფო</p>
+        <p>ლეპტოპის მახასიათებლები</p>
+      </div>
+
+      <div class="form-container">
+        <form class="form-box">
+          <div>
+            <label for="first-name">სახელი</label>
+            <input id="first-name" type="text" placeholder="გრიშა" />
+          </div>
+
+          <div>
+            <label for="last-name">გვარი</label>
+            <input
+              id="last-name"
+              type="text"
+              placeholder="ბაგრატიონი"
+              required
+            />
+          </div>
+
+          <select class="team">
+            <option>თიმი</option>
+          </select>
+
+          <select class="position">
+            <option>პოზიცია</option>
+          </select>
+
+          <div class="mail">
+            <label>მეილი</label>
+            <input type="email" placeholder="grish666@redberry.ge" />
+            <p>უნდა მთავრდებოდეს @redberry.ge-თი</p>
+          </div>
+
+          <div class="tel">
+            <label>ტელეფონის ნომერი</label>
+            <input type="tel" placeholder="+995 598 00 07 01" />
+            <p>უნდა აკმაყოფილებდეს ქართული მობ-ნომრის ფორმატს</p>
+          </div>
+          <button class="btn-next">შემდეგი</button>
+        </form>
+        <img
+          class="redberry-rocket"
+          src="/imgs/LOGO-10 2.png"
+          alt="Redberry rocket man logo"
+        />
+      </div>
+    </div>
+  </body>
+</html>

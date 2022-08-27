@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: Helvetica Neue;
+  src: url(/font/HelveticaNeue.ttc) format("truetype");
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 1;
+  background-color: #f7f7f7;
+}
+
+.btn-back {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  background-color: #ddd;
+  border-radius: 50%;
+  border: none;
+  top: 4%;
+  left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-back-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.pops {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.pop-active {
+  border-bottom: 2px solid #000;
+}
+
+.form-container {
+  position: relative;
+}
+
+.form-box {
+  display: grid;
+  column-gap: 4rem;
+  row-gap: 4rem;
+  grid-template-columns: repeat(2, 1fr);
+
+  border-radius: 11px;
+  width: 80rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 7rem;
+
+  /* display: flex;
+  flex-direction: column;
+  gap: 2rem; */
+}
+
+.team,
+.position,
+.mail,
+.tel {
+  grid-column: 1 / -1;
+}
+
+select {
+  background-color: #ebebeb;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+}
+
+.form-box label {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 9px;
+  border: 1px solid #62a1eb;
+  font-family: inherit;
+}
+
+.form-box select {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: start;
+  border: none;
+  font-family: inherit;
+}
+
+.form-box p {
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.redberry-rocket {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 50%);
+}
+
+.btn-next {
+  font-family: inherit;
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  background-color: #62a1eb;
+  padding: 1.2rem 2.4rem;
+
+  grid-column: 2;
+  width: 10rem;
+  justify-self: end;
+}

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Helvetica Neue;
+  src: url(/font/HelveticaNeue.ttc) format("truetype");
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 1;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.landing {
+  margin: 0 auto;
+  position: relative;
+}
+
+.redberry-logo {
+  position: absolute;
+  left: 50%;
+  top: 7.9rem;
+  transform: translate(-50%);
+}
+
+.group-01 {
+  position: absolute;
+  left: 50%;
+  top: 18.2rem;
+  transform: translate(-50%);
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+
+  width: 30rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  background-color: #62a1eb;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn--record {
+  top: 78.7rem;
+}
+
+.btn--list {
+  top: 87.3rem;
+}
+
+.btn-back {
+  width: 4rem;
+  height: 4rem;
+}
